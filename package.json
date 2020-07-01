@@ -1,0 +1,28 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crowller.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liruiqing7/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liruiqing7/TypeScript/issues"
+  },
+  "homepage": "https://github.com/liruiqing7/TypeScript#readme",
+  "devDependencies": {
+    "@types/superagent": "^4.1.8",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "superagent": "^5.3.1"
+  }
+}
