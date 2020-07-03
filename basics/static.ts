@@ -40,3 +40,25 @@ const lee: Person = new Person();
 const getTotal: () => number = () => {
   return 18;
 };
+
+let num: number; //type annotation 类型注解,我们来告诉TS变量是什么类型
+num = 123;
+
+let numInference = 123; //type inference 类型推断,TS 会自动的去尝试分析变量的类型
+
+//如果TS能够自动分析变量类型，我们就不需要做什么，如果TS无法分析变量类型，需要我们使用类型注解。
+
+// const firstNumber = 1;
+// const secondNumber = 2;
+// const total = firstNumber + secondNumber; 不需要加
+
+// function getTotals(firstNumber:number,secondNumber:number){ 需要加
+//   return firstNumber + secondNumber
+// }
+
+// const totals = getTotals(1,2); totals被类型推断
+
+// const obj = {
+//   name:'liruiqing',
+//   age :18
+// }
