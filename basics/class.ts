@@ -21,5 +21,5 @@ class Teacher extends Person {
   }
 }
 const teacher = new Teacher();
-console.log(teacher.getName());
-console.log(teacher.getTeacherName());
+console.log(teacher.getName()); //打印: leeruiqing
+console.log(teacher.getTeacherName()); //打印: Teacher
