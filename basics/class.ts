@@ -70,7 +70,7 @@ class Personts {
 class Teacherts extends Personts{
   sayHi(){
     constructor(public age:number){
-      super(this.sayHi)
+      // super(this.sayHi)
     }
   }
 }
