@@ -8,7 +8,7 @@ class PersonName {
 }
 
 class TeacherName extends PersonName {
-  //类的继承 Teacher是子类 Person是父类
+  //类的继承 Teacher是子类 Person是父
   getTeacherName() {
     return "Teacher";
   }
