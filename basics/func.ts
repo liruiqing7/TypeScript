@@ -10,7 +10,7 @@ const total = add(1, 2);
 
 function sayHello(): void {
   //定义函数返回值为void
-  console.log("hello");
+  console.log("hi");
 }
 
 function errorEmitter(): never {
